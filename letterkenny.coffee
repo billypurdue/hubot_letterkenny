@@ -44,3 +44,6 @@ module.exports = (robot) ->
 
 	robot.hear /.*(hold my spitter).*/i, (msg) ->
         msg.send "https://j.gifs.com/G5Yx5L.gif"
+		
+	robot.hear /.*(pitter patter).*/i, (msg) ->
+        msg.send "https://78.media.tumblr.com/641e35270df0d55e85fe19688fc3306c/tumblr_ot8i6hrfBN1tsuuvno1_540.gif"
